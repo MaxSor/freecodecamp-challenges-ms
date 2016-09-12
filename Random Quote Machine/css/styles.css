@@ -1,0 +1,79 @@
+body {
+  background-color: darkgrey;
+  color: darkgrey; 
+  font-size: 1.5em;
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+#mainBlock {
+	margin: 10% auto;
+	display: block;
+	width: 70%; 
+}
+
+#quoteBlock {
+	width: auto;
+	background-color: white;
+	overflow: auto;
+	border-radius: 5px;
+}
+
+#quoteAndButtons {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+	
+}
+
+#quote {
+	margin:  0 auto;
+}
+
+#quote:first-letter {
+	font-size: 2em;
+}
+
+#author {
+	width: auto;
+	float: right;
+}
+
+#buttons {
+	clear: both;
+	width: auto;
+	align-items: center;
+/*	border:  1px solid black;*/
+}
+
+#newQuote {
+	float: right;
+	color: white;
+	font-size: 0.8em;
+	border: none;
+	border-radius:4px;
+	height: 2em;
+	width: 6em;
+	background-color: darkgrey;
+	transition-property: all;
+    transition-duration: 2s;
+}
+
+#newQuote:focus {
+	outline: none;
+}
+
+
+#footerBlock {
+	margin-left: 40%;
+	width: auto;
+	font-size: 0.6em;
+	color: white;
+}
+
+.clearfix {
+	clear: both;
+}
+
